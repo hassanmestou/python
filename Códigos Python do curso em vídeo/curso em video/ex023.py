@@ -1,0 +1,6 @@
+num = int(input('informe um numero: '))
+n = str(num)
+print('\033[31munidade\033[m \033[4;36m{}\033[m'.format(n[3]))
+print('\033[31mdezena\033[m \033[4;35m{}\033[m'.format(n[2]))
+print('\033[31mcentena\033[m \033[4;33m{}\033[m'.format(n[1]))
+print('\033[31mmilhar\033[m \033[4;32m{}'.format(n[0]))

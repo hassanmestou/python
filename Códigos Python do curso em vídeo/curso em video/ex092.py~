@@ -1,0 +1,7 @@
+ger = []
+ger['nome'] = str(input('Digite o seu nome: '))
+ger['anodenaci'] = int(input('Seu ano de nacimento: '))
+ger['ctps'] = int(input('Carteira de trabalho (0 não tem): '))
+if ger['ctps']
+ger['adc'] = int(input('Ano de contratação: '))
+ger['salario'] = float(input('Seu salário: '))

@@ -1,0 +1,16 @@
+times = ('Corinthias', 'Palmeiras', 'Santos', 'Gremío', 'Cruzeiro', 'Flamengo', 'vasco',
+         'Chapecoence', 'atletico-mg', 'Botafogo', 'Athletico-Pr', 'Bahia', 'São paulo',
+         'Fluminence', 'Sport', 'Vitoria', 'Coritiba', 'Avaí', 'Ponte-Preta', 'Atlético-Go')
+print(times)
+print('-='*40)
+print('\033[31mOs primeiros 5 colocados\033[m')
+print(times[0:5])
+print('-='*40)
+print('\033[35mOs ultimos 5\033[m')
+print(times[-4:])
+print('-='*40)
+print('\033[34mOrganizados em ordem alfabética\033[m')
+print(sorted(times))
+print('-='*40)
+print('A chapecoence está na posição')
+print(times.index('Chapecoence')+1,'ª Posição')
